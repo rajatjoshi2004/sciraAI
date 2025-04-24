@@ -1029,7 +1029,7 @@ const FormComponent: React.FC<FormComponentProps> = ({
                             className={cn(
                                 "w-full rounded-lg resize-none",
                                 "text-base leading-relaxed",
-                                "bg-neutral-100 dark:bg-neutral-900",
+                                "bg-white-100 dark:bg-white-900",
                                 "border !border-neutral-200 dark:!border-neutral-700",
                                 "focus:!border-neutral-300 dark:!focus:!border-neutral-500",
                                 isFocused ? "!border-neutral-300 dark:!border-neutral-500" : "",
@@ -1055,7 +1055,7 @@ const FormComponent: React.FC<FormComponentProps> = ({
                         <div
                             className={cn(
                                 "absolute bottom-0 inset-x-0 flex justify-between items-center p-2 rounded-b-lg",
-                                "bg-neutral-100 dark:bg-neutral-900",
+                                "bg-white-100 dark:bg-white-900",
                                 "!border !border-t-0 !border-neutral-200 dark:!border-neutral-700",
                                 isFocused ? "!border-neutral-300 dark:!border-neutral-500" : "",
                                 isProcessing ? "!opacity-20 !cursor-not-allowed" : ""
@@ -1082,12 +1082,12 @@ const FormComponent: React.FC<FormComponentProps> = ({
                                         ? "opacity-100 visible w-auto"
                                         : "opacity-0 invisible w-0"
                                 )}>
-                                    <GroupSelector
+                                    {/* <GroupSelector
                                         selectedGroup={selectedGroup}
                                         onGroupSelect={handleGroupSelect}
                                         status={status}
                                         onExpandChange={setIsGroupSelectorExpanded}
-                                    />
+                                    /> */}
                                 </div>
                             </div>
 

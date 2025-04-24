@@ -1470,7 +1470,7 @@ const HomeContent = () => {
                             <div className="flex items-center gap-2">
                                 <div className="flex items-center gap-2">
                                     <Image 
-                                        src="/opus.png" 
+                                        src="./opus.png" 
                                         alt="Opus AI" 
                                         className="h-8 w-8 invert dark:invert-0" 
                                         width={32} 
@@ -1761,7 +1761,12 @@ const HomeContent = () => {
                 }`}>
                 <div className={`w-full max-w-[90%] !font-sans sm:max-w-2xl space-y-6 p-0 mx-auto transition-all duration-300`}>
                     {status === 'ready' && messages.length === 0 && (
-                        <div className="text-center !font-sans">
+                        <div className="text-left !font-sans">
+                            <h1 className=" font-syne text-2xl sm:text-4xl mb-6 font-bold bg-gradient-to-r from-red-400 via-yellow-400 to-purple-500 bg-clip-text text-transparent">
+  Hello
+</h1>
+
+                            {/* <h1 className="text-2xl sm:text-4xl mb-6 text-neutral-800 dark:text-neutral-100 font-syne">Hello</h1> */}
                             <h1 className="text-2xl sm:text-4xl mb-6 text-neutral-800 dark:text-neutral-100 font-syne">
                                 What do you want to explore?
                             </h1>

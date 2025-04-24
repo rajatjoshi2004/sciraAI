@@ -25,8 +25,9 @@ const config = {
       },
       fontFamily: {
         sans: ['var(--font-geist-sans)', ...fontFamily.sans],
-        syne: ['var(--font-syne)'],
-        mono: ['var(--font-geist-mono)', ...fontFamily.mono],
+        // syne: ['var(--font-syne)'],
+        mono: ['"IBM Plex Mono"', 'monospace'], // Add this line
+        syne: ['"IBM Plex Mono"', 'monospace'], // Optional if you want separate utility
       },
       colors: {
         border: "hsl(var(--border))",
