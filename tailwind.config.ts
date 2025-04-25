@@ -24,10 +24,11 @@ const config = {
         'screen-small': '100svh',
       },
       fontFamily: {
-        sans: ['var(--font-geist-sans)', ...fontFamily.sans],
+        // sans: ['var(--font-geist-sans)', ...fontFamily.sans],
+        sans: ['"IBM Plex Mono"', 'monospace'],
         // syne: ['var(--font-syne)'],
-        mono: ['"IBM Plex Mono"', 'monospace'], // Add this line
-        syne: ['"IBM Plex Mono"', 'monospace'], // Optional if you want separate utility
+        mono: ['"IBM Plex Mono"', 'monospace'], 
+        syne: ['"IBM Plex Mono"', 'monospace'], 
       },
       colors: {
         border: "hsl(var(--border))",
