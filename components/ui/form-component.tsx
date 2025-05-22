@@ -1101,66 +1101,40 @@ const SelectionContent = ({ selectedGroup, onGroupSelect, status, onExpandChange
                 'relative z-10',
                 isProcessing && 'opacity-50 pointer-events-none',
             )}
-            // onMouseEnter={() => !isProcessing && setIsExpanded(true)}
-            // onMouseLeave={() => !isProcessing && setIsExpanded(false)}
+            onMouseEnter={() => !isProcessing && setIsExpanded(true)}
+            onMouseLeave={() => !isProcessing && setIsExpanded(false)}
         >
             <TooltipProvider>
-               <AnimatePresence initial={false}>
-  {/* Web & Analysis Buttons (always visible with gap) */}
-  <div className="flex gap-3 pr-1">
-    {searchGroups
-      .filter(group => group.id === 'web' || group.id === 'analysis')
-      .map(group => (
-        <motion.div
-          key={group.id}
-          layout={false}
-          className="w-[28px]" // always set fixed width to prevent collapsing
-          animate={{ opacity: 1 }}
-          initial={false}
-          transition={{ duration: 0.15, ease: 'easeInOut' }}
-        >
-          <ToolbarButton
-            group={group}
-            isSelected={selectedGroup === group.id}
-            onClick={() => !isProcessing && onGroupSelect(group)}
-          />
-        </motion.div>
-      ))}
-  </div>
-
-  {/* All other buttons (conditional) */}
-  {searchGroups
-    .filter(group => group.show && group.id !== 'web' && group.id !== 'analysis')
-    .map((group, index, filteredGroups) => {
-      const showItem =
-        (isExpanded && !isProcessing) || selectedGroup === group.id;
-      const isLastItem = index === filteredGroups.length - 1;
-
-      return (
-        <motion.div
-          key={group.id}
-          layout={false}
-          animate={{
-            width: showItem ? '28px' : 0,
-            opacity: showItem ? 1 : 0,
-            marginRight: showItem && isLastItem && isExpanded ? '2px' : 0,
-          }}
-          transition={{ duration: 0.15, ease: 'easeInOut' }}
-          className={cn(
-            'overflow-hidden',
-            isLastItem && isExpanded && showItem ? 'pr-0.5' : ''
-          )}
-        >
-          <ToolbarButton
-            group={group}
-            isSelected={selectedGroup === group.id}
-            onClick={() => !isProcessing && onGroupSelect(group)}
-          />
-        </motion.div>
-      );
-    })}
-</AnimatePresence>
-
+                <AnimatePresence initial={false}>
+                    {searchGroups
+                        .filter((group) => group.show)
+                        .map((group, index, filteredGroups) => {
+                            const showItem = (isExpanded && !isProcessing) || selectedGroup === group.id;
+                            const isLastItem = index === filteredGroups.length - 1;
+                            return (
+                                <motion.div
+                                    key={group.id}
+                                    layout={false}
+                                    animate={{
+                                        width: showItem ? '28px' : 0,
+                                        opacity: showItem ? 1 : 0,
+                                        marginRight: showItem && isLastItem && isExpanded ? '2px' : 0,
+                                    }}
+                                    transition={{
+                                        duration: 0.15,
+                                        ease: 'easeInOut',
+                                    }}
+                                    className={cn('m-0!', isLastItem && isExpanded && showItem ? 'pr-0.5' : '')}
+                                >
+                                    <ToolbarButton
+                                        group={group}
+                                        isSelected={selectedGroup === group.id}
+                                        onClick={() => !isProcessing && onGroupSelect(group)}
+                                    />
+                                </motion.div>
+                            );
+                        })}
+                </AnimatePresence>
             </TooltipProvider>
         </motion.div>
     );
@@ -2063,7 +2037,6 @@ const FormComponent: React.FC<FormComponentProps> = ({
                                     </div>
 
                                     <div
-                                    style={{ marginLeft: '27px' }}
                                         className={cn(
                                             'transition-all duration-300',
                                             isMobile && isGroupSelectorExpanded
