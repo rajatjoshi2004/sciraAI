@@ -1946,7 +1946,7 @@ const FormComponent: React.FC<FormComponentProps> = ({
                             notificationType={switchNotification.notificationType}
                         />
 
-                        <div className="relative rounded-lg bg-neutral-100 dark:bg-neutral-900">
+                        <div className="relative rounded-lg bg-neutral-100 dark:bg-neutral-200">
                             <Textarea
                                 ref={inputRef}
                                 placeholder={hasInteracted ? 'Ask a new question...' : 'Ask a question...'}
@@ -1973,11 +1973,11 @@ const FormComponent: React.FC<FormComponentProps> = ({
                                 className={cn(
                                     'w-full rounded-lg md:text-base!',
                                     'text-base leading-relaxed',
-                                    'bg-neutral-100 dark:bg-neutral-900',
+                                    'bg-neutral-100 dark:bg-neutral-300',
                                     'border border-neutral-200! dark:border-neutral-700!',
                                     'focus:border-neutral-300! dark:!focus:!border-neutral-500',
                                     isFocused ? 'border-neutral-300! dark:border-neutral-500!' : '',
-                                    'text-neutral-900 dark:text-neutral-100',
+                                    'text-neutral-900 dark:text-neutral-1000',
                                     'focus:ring-0!',
                                     'px-4 py-4 pb-16',
                                     'touch-manipulation',
@@ -2001,9 +2001,9 @@ const FormComponent: React.FC<FormComponentProps> = ({
                             <div
                                 className={cn(
                                     'absolute bottom-0 inset-x-0 flex justify-between items-center p-2 rounded-b-lg',
-                                    'bg-neutral-100 dark:bg-neutral-900',
+                                    'bg-neutral-100 dark:bg-neutral-300',
                                     'border-t-0 border-x border-b border-neutral-200! dark:border-neutral-700!',
-                                    isFocused ? 'border-neutral-300! dark:border-neutral-500!' : '',
+                                    isFocused ? 'border-neutral-900! dark:border-neutral-900!' : '',
                                     isProcessing ? 'opacity-20! cursor-not-allowed!' : '',
                                 )}
                             >

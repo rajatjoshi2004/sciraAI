@@ -124,7 +124,7 @@ export default function AboutPage() {
                                 Terms of Service
                             </h3>
                             <p className="text-xs text-muted-foreground leading-relaxed">
-                                By using Scira, you agree to our Terms of Service which outline the rules for using our platform. 
+                                By using Opus, you agree to our Terms of Service which outline the rules for using our platform. 
                                 This includes guidelines on acceptable use, intellectual property rights, and limitations of liability.
                             </p>
                             <Link href="/terms" className="text-xs text-primary hover:underline inline-flex items-center">
@@ -194,7 +194,7 @@ export default function AboutPage() {
                         <motion.div variants={item} className="text-center">
                             <Link href="/" className="inline-flex items-end gap-3 text-5xl font-syne font-bold">
                                 <NextImage src="/scira.png" alt="Scira Logo" className="h-16 w-16 invert dark:invert-0" width={64} height={64} unoptimized quality={100}/>
-                                <span className=''>Scira</span>
+                                <span className=''>Opus</span>
                             </Link>
                         </motion.div>
 
@@ -223,7 +223,7 @@ export default function AboutPage() {
                                     type="submit"
                                     className="absolute right-2 top-2 h-10 px-4 rounded-xl bg-neutral-900 dark:bg-white text-white dark:text-neutral-900 font-medium hover:opacity-90 transition-opacity"
                                 >
-                                    Ask Scira
+                                    Ask Opus
                                 </button>
                             </div>
                         </motion.form>
@@ -267,7 +267,7 @@ export default function AboutPage() {
                     <div className="text-center space-y-4 mb-16">
                         <h2 className="text-3xl font-bold">RAG & Search Grounding</h2>
                         <p className="text-neutral-600 dark:text-neutral-400 max-w-2xl mx-auto">
-                            Watch how Scira combines RAG and search grounding to deliver accurate, up-to-date answers from reliable sources.
+                            Watch how Opus combines RAG and search grounding to deliver accurate, up-to-date answers from reliable sources.
                         </p>
                     </div>
 
@@ -595,7 +595,7 @@ export default function AboutPage() {
                     <div className="text-center space-y-4">
                         <h2 className="text-3xl font-bold">Built For Everyone</h2>
                         <p className="text-neutral-600 dark:text-neutral-400 max-w-2xl mx-auto">
-                            Whether you need quick answers or in-depth research, Scira adapts to your search needs.
+                            Whether you need quick answers or in-depth research, Opus adapts to your search needs.
                         </p>
                     </div>
 
@@ -633,7 +633,7 @@ export default function AboutPage() {
                 <div className="mx-auto max-w-5xl px-4 py-12">
                     <div className="flex flex-col items-center justify-between gap-6 sm:flex-row">
                         <div className="flex items-center gap-3">
-                            <img src="/scira.png" alt="Scira Logo" className="h-8 w-8" />
+                            <img src="/scira.png" alt="Opus Logo" className="h-8 w-8" />
                             <p className="text-sm text-neutral-600 dark:text-neutral-400">
                                 © {new Date().getFullYear()} All rights reserved.
                             </p>
