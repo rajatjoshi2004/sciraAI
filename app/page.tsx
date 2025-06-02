@@ -255,7 +255,7 @@ const HomeContent = () => {
                         </Button>
                     </Link>
                 </div>
-                <div className='flex items-center space-x-4'>
+                {/* <div className='flex items-center space-x-4'>
                     <Link
                         target="_blank"
                         href="https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fzaidmukaddam%2Fscira&env=XAI_API_KEY,OPENAI_API_KEY,GROQ_API_KEY,E2B_API_KEY,ELEVENLABS_API_KEY,TAVILY_API_KEY,EXA_API_KEY,TMDB_API_KEY,YT_ENDPOINT,FIRECRAWL_API_KEY,OPENWEATHER_API_KEY,SANDBOX_TEMPLATE_ID,GOOGLE_MAPS_API_KEY,MAPBOX_ACCESS_TOKEN,TRIPADVISOR_API_KEY,AVIATION_STACK_API_KEY,CRON_SECRET,BLOB_READ_WRITE_TOKEN,NEXT_PUBLIC_MAPBOX_TOKEN,NEXT_PUBLIC_POSTHOG_KEY,NEXT_PUBLIC_POSTHOG_HOST,NEXT_PUBLIC_GOOGLE_MAPS_API_KEY,MEM0_API_KEY,MEM0_ORG_ID,MEM0_PROJECT_ID,SMITHERY_API_KEY&envDescription=API%20keys%20and%20configuration%20required%20for%20Scira%20to%20function%20(including%20SMITHERY_API_KEY)"
@@ -270,7 +270,7 @@ const HomeContent = () => {
                     </Link>
                     <AboutButton />
                     <ThemeToggle />
-                </div>
+                </div> */}
             </div>
         );
     };
@@ -388,7 +388,7 @@ const HomeContent = () => {
                 }`}>
                 <div className={`w-full max-w-[26rem] sm:max-w-2xl space-y-6 p-0 mx-auto transition-all duration-300`}>
                     {status === 'ready' && messages.length === 0 && (
-                        <div className="text-center">
+                        <div className="text-left">
                             <h1 className="text-2xl sm:text-4xl mb-4 sm:mb-6 text-neutral-800 dark:text-neutral-100 font-syne!">
                                 What do you want to explore?
                             </h1>

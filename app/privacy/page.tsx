@@ -57,7 +57,7 @@ export default function PrivacyPage() {
       <div className="py-16 px-4">
         <div className="container max-w-3xl mx-auto prose dark:prose-invert prose-neutral prose-headings:font-syne prose-p:text-neutral-600 dark:prose-p:text-neutral-400 prose-a:text-neutral-900 dark:prose-a:text-neutral-200 prose-a:no-underline hover:prose-a:text-black dark:hover:prose-a:text-white prose-headings:tracking-tight">
           <p className="text-lg">
-            At Scira AI, we respect your privacy and are committed to protecting your personal data. This Privacy Policy explains how we collect, use, and safeguard your information when you use our AI-powered search engine.
+            At Opus AI, we respect your privacy and are committed to protecting your personal data. This Privacy Policy explains how we collect, use, and safeguard your information when you use our AI-powered search engine.
           </p>
 
           <h2>Information We Collect</h2>
@@ -152,7 +152,7 @@ export default function PrivacyPage() {
                 <NextImage src="/scira.png" alt="Scira Logo" className="h-4 w-4 opacity-80 invert dark:invert-0" width={16} height={16} unoptimized quality={100}/>
               </div>
               <div className="text-sm text-neutral-500 dark:text-neutral-400">
-                © {new Date().getFullYear()} Scira AI by Zaid Mukaddam
+                © {new Date().getFullYear()} Opus AI by Zaid Mukaddam
               </div>
             </div>
             <div className="flex items-center gap-6 text-sm text-neutral-500 dark:text-neutral-400">

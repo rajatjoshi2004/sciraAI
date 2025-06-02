@@ -57,17 +57,17 @@ export default function TermsPage() {
       <div className="py-16 px-4">
         <div className="container max-w-3xl mx-auto prose dark:prose-invert prose-neutral prose-headings:font-syne prose-p:text-neutral-600 dark:prose-p:text-neutral-400 prose-a:text-neutral-900 dark:prose-a:text-neutral-200 prose-a:no-underline hover:prose-a:text-black dark:hover:prose-a:text-white prose-headings:tracking-tight">
           <p className="text-lg">
-            Welcome to Scira AI. These Terms of Service govern your use of our website and services. By using Scira AI, you agree to these terms in full. If you disagree with any part of these terms, please do not use our service.
+            Welcome to Opus AI. These Terms of Service govern your use of our website and services. By using Opus AI, you agree to these terms in full. If you disagree with any part of these terms, please do not use our service.
           </p>
 
           <h2>1. Acceptance of Terms</h2>
           <p>
-            By accessing or using Scira AI, you acknowledge that you have read, understood, and agree to be bound by these Terms of Service. We reserve the right to modify these terms at any time, and such modifications shall be effective immediately upon posting. Your continued use of Scira AI after any modifications indicates your acceptance of the modified terms.
+            By accessing or using Opus AI, you acknowledge that you have read, understood, and agree to be bound by these Terms of Service. We reserve the right to modify these terms at any time, and such modifications shall be effective immediately upon posting. Your continued use of Opus AI after any modifications indicates your acceptance of the modified terms.
           </p>
 
           <h2>2. Description of Service</h2>
           <p>
-            Scira AI is a minimalistic AI-powered search engine that helps users find information on the internet. Our service utilizes artificial intelligence to process search queries and provide relevant results and information.
+            Opus AI is a minimalistic AI-powered search engine that helps users find information on the internet. Our service utilizes artificial intelligence to process search queries and provide relevant results and information.
           </p>
           <p>
             Our service is hosted on Vercel and integrates with various AI technology providers, including OpenAI, Anthropic, xAI, and others, to deliver search results and content generation capabilities.
@@ -75,7 +75,7 @@ export default function TermsPage() {
 
           <h2>3. User Conduct</h2>
           <p>
-            You agree not to use Scira AI to:
+            You agree not to use Opus AI to:
           </p>
           <ul>
             <li>Engage in any activity that violates applicable laws or regulations</li>
@@ -89,7 +89,7 @@ export default function TermsPage() {
 
           <h2>4. Content and Results</h2>
           <p>
-            While we strive to provide accurate and reliable information, Scira AI:
+            While we strive to provide accurate and reliable information, Opus AI:
           </p>
           <ul>
             <li>Does not guarantee the accuracy, completeness, or reliability of any results</li>
@@ -97,12 +97,12 @@ export default function TermsPage() {
             <li>May provide links to third-party websites over which we have no control</li>
           </ul>
           <p>
-            You should exercise judgment and critical thinking when evaluating search results and generated content. Scira AI should not be used as the sole source for making important decisions, especially in professional, medical, legal, or financial contexts.
+            You should exercise judgment and critical thinking when evaluating search results and generated content. Opus AI should not be used as the sole source for making important decisions, especially in professional, medical, legal, or financial contexts.
           </p>
 
           <h2>5. Intellectual Property</h2>
           <p>
-            All content, features, and functionality of Scira AI, including but not limited to text, graphics, logos, icons, images, audio clips, and software, are the property of Scira AI or its licensors and are protected by copyright, trademark, and other intellectual property laws.
+            All content, features, and functionality of Opus AI, including but not limited to text, graphics, logos, icons, images, audio clips, and software, are the property of Opus AI or its licensors and are protected by copyright, trademark, and other intellectual property laws.
           </p>
           <p>
             You may not copy, modify, distribute, sell, or lease any part of our service or included software without explicit permission.
@@ -110,7 +110,7 @@ export default function TermsPage() {
 
           <h2>6. Third-Party Services</h2>
           <p>
-            Scira AI relies on third-party services to provide its functionality:
+            Opus AI relies on third-party services to provide its functionality:
           </p>
           <ul>
             <li>Our service is hosted on Vercel&apos;s infrastructure</li>
@@ -119,32 +119,32 @@ export default function TermsPage() {
             <li>We are not responsible for the practices or policies of these third-party services</li>
           </ul>
           <p>
-            By using Scira AI, you acknowledge and agree that your data may be processed by these third-party services as described in our Privacy Policy.
+            By using Opus AI, you acknowledge and agree that your data may be processed by these third-party services as described in our Privacy Policy.
           </p>
 
           <h2>7. Privacy</h2>
           <p>
-            Your use of Scira AI is also governed by our <Link href="/privacy" className="underline">Privacy Policy</Link>, which is incorporated into these Terms of Service by reference.
+            Your use of Opus AI is also governed by our <Link href="/privacy" className="underline">Privacy Policy</Link>, which is incorporated into these Terms of Service by reference.
           </p>
 
           <h2>8. Limitation of Liability</h2>
           <p>
-            To the maximum extent permitted by law, Scira AI shall not be liable for any indirect, incidental, special, consequential, or punitive damages, including loss of profits, data, or goodwill, arising out of or in connection with your use of or inability to use the service.
+            To the maximum extent permitted by law, Opus AI shall not be liable for any indirect, incidental, special, consequential, or punitive damages, including loss of profits, data, or goodwill, arising out of or in connection with your use of or inability to use the service.
           </p>
 
           <h2>9. Disclaimers</h2>
           <p>
-            Scira AI is provided &quot;as is&quot; and &quot;as available&quot; without any warranties of any kind, either express or implied, including but not limited to warranties of merchantability, fitness for a particular purpose, or non-infringement.
+            Opus AI is provided &quot;as is&quot; and &quot;as available&quot; without any warranties of any kind, either express or implied, including but not limited to warranties of merchantability, fitness for a particular purpose, or non-infringement.
           </p>
 
           <h2>10. Termination</h2>
           <p>
-            We reserve the right to suspend or terminate your access to Scira AI, with or without notice, for conduct that we believe violates these Terms of Service or is harmful to other users, us, or third parties, or for any other reason at our discretion.
+            We reserve the right to suspend or terminate your access to Opus AI, with or without notice, for conduct that we believe violates these Terms of Service or is harmful to other users, us, or third parties, or for any other reason at our discretion.
           </p>
 
           <h2>11. Governing Law</h2>
           <p>
-            These Terms shall be governed by and construed in accordance with the laws of the jurisdiction in which Scira AI operates, without regard to its conflict of law provisions.
+            These Terms shall be governed by and construed in accordance with the laws of the jurisdiction in which Opus AI operates, without regard to its conflict of law provisions.
           </p>
 
           <h2>12. Contact Us</h2>
@@ -159,7 +159,7 @@ export default function TermsPage() {
 
           <div className="my-8 border-t border-neutral-200 dark:border-neutral-800 pt-8">
             <p className="text-sm text-neutral-500 dark:text-neutral-400">
-              By using Scira AI, you agree to these Terms of Service and our <Link href="/privacy" className="underline">Privacy Policy</Link>.
+              By using Opus AI, you agree to these Terms of Service and our <Link href="/privacy" className="underline">Privacy Policy</Link>.
             </p>
           </div>
         </div>
@@ -175,7 +175,7 @@ export default function TermsPage() {
                 <NextImage src="/scira.png" alt="Scira Logo" className="h-4 w-4 opacity-80 invert dark:invert-0" width={16} height={16} unoptimized quality={100}/>
               </div>
               <div className="text-sm text-neutral-500 dark:text-neutral-400">
-                © {new Date().getFullYear()} Scira AI by Zaid Mukaddam
+                © {new Date().getFullYear()} Opus AI by Zaid Mukaddam
               </div>
             </div>
             <div className="flex items-center gap-6 text-sm text-neutral-500 dark:text-neutral-400">
